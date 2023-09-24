@@ -1,13 +1,24 @@
 /* Your CSS Code here. */
-.flex-container {
+.holder {
      display: flex;
 	 justify-content: space-between;
-     
-	
+     flex-wrap: wrap;
 }
 
-.flex-item {
-     height: 250px;
-     width: 500px;
-     border: 1px solid black;
+.item {
+     height: 50px;
+     width: 50px;
+     border: none;
+}
+
+#item1 {
+	background-color: green;
+}
+
+#item2 {
+	background-color: red;
+}
+
+#item3 {
+	background-color: blue;
 }
